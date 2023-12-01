@@ -8,9 +8,11 @@ let greeting = document.querySelector(".greeting");
 
 
 
-// 3. Create a variable called `greetingMessage`.
-// - Using string interpolation, create a messga that say "Hi, (your first name) (your last name)!"
 
+let firstName = "Chopa";
+let lastName= "Alcantar";
+let greetingMessage = `Greetings ${firstName} ${lastName}!`;
+greeting.innerHTML = greetingMessage;
 
 
 // 4. Set the innerHTML of the greeting div to the greeting message.
